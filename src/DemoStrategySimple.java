@@ -1,5 +1,6 @@
 public class DemoStrategySimple {
     public static void main(String[] args) {
+        System.out.println();
         System.out.println("--- KNN with Euclidean Distance---");
         ClassifierStrategy classifier = new ClassifierKnn();
         classifier.setDistanceMetric(new EuclideanDistance());
